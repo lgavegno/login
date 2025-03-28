@@ -1,0 +1,103 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contenedor del formulario */
+.formulario-registro {
+    background: linear-gradient(45deg, #160d0d 0%, #694848 100%);
+    width: 90%;
+    max-width: 400px;
+    padding: 30px;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(76, 175, 80, 0.3);
+}
+
+/* Título */
+.formulario-registro h1 {
+    color: #4CAF50;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+/* Grupos de campos */
+.form-group {
+    margin-bottom: 20px;
+    display: flex;              /* Usamos flexbox para centrar */
+    flex-direction: column;     /* Alineamos los elementos en columna */
+    align-items: center;        /* Centramos horizontalmente */
+    text-align: center;         /* Centramos el texto de las etiquetas */
+}
+
+/* Etiquetas */
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Inputs */
+.form-control {
+    width: 100%;
+    max-width: 300px;           /* Limitamos el ancho máximo paramejor estética */
+    padding: 12px;
+    background-color: #222;
+    border: 1px solid #4CAF50;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #45a049;
+    box-shadow: 0 0 10px rgba(76, 175, 80, 0.5);
+}
+
+/* Botón principal */
+.btn {
+    width: 100%;
+    padding: 14px;
+    background-color: #4CAF50;
+    color: #342b2b;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #b6d0b8;
+}
+
+/* Enlaces secundarios */
+.enlaces-form {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.enlace-secundario {
+    color: #4CAF50;
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.3s;
+}
+
+.enlace-secundario:hover {
+    text-decoration: underline;
+    color: #45a049;
+}
