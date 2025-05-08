@@ -69,11 +69,6 @@ Este proyecto es **solo para fines educativos o prototipos**. No debe usarse en 
 
 ---
 
-¿Te gustaría que prepare también los archivos `index.html`, `registro.html` y `script.js` de forma ordenada y lista para usar?
-Claro, aquí tienes un `README.md` profesional y bien organizado que describe el funcionamiento completo del sistema de inicio de sesión que proporcionaste:
-
----
-
 # 🟢 Sistema de Inicio de Sesión Web
 
 Este proyecto es un ejemplo básico de un sistema de inicio de sesión con funcionalidades de recuperación de contraseña y registro, desarrollado con HTML, CSS y JavaScript puro. Está diseñado para ser simple, funcional y visualmente atractivo.
@@ -127,12 +122,6 @@ El diseño tiene un enfoque oscuro con toques verdes, resaltando los campos de e
 * Estilos responsivos con `max-width` en formularios.
 * Campos con efectos visuales al enfocar.
 * Enlaces y botones con transiciones y cambios de color.
-
----
-
-## 📸 Captura de Pantalla
-
-<sub>(Puedes incluir aquí capturas de pantalla si lo deseas)</sub>
 
 ---
 
